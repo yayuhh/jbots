@@ -1,4 +1,4 @@
-![jbots](https://raw.github.com/jmonster/jbots/master/jbot.png)
+![jbots](https://raw.github.com/jmonster/jbots/master/lib/jbot.png)
 
 [![Build Status](https://travis-ci.org/jmonster/jbots.png?branch=master)](https://travis-ci.org/jmonster/jbots)
 
