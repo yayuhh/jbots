@@ -10,7 +10,7 @@ test('server initializes and starts appropriately', function (t) {
 
     t.pass('server started');
     server.stop(function(){
-      
+
       t.pass('server stopped');
     });
   });

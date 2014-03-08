@@ -16,15 +16,14 @@ module.exports = {
     var msg = request.payload;
 
     // Suppose you only want to respond to messages that match a certain criteria
-    if (   msg.text
-        && msg.text.match(/\bhello\b/)) {
+    if (msg.text.match(/\bhello\b/)) {
 
       // Empty bodies or bodies with an empty text property will
       // simply be ignored.
       var body = 'Herrrro there!';
 
       // Non-200 responses will be retried a reasonable number of times.
-      var status = 200; 
+      var status = 200;
 
       // If you would like to change the name on a per-response basis,
       // simply include a `username` property in your response.
@@ -35,8 +34,8 @@ module.exports = {
         'text':     body,
         'username': username
       }).code(status);
-    
-    } else { 
+
+    } else {
 
       // This is not the msg you're looking for.
       reply().code(204);
