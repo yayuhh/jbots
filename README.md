@@ -1,5 +1,8 @@
 ![jbots](http://1.bp.blogspot.com/-1czUXZDCNdU/TXRl_Q9FIAI/AAAAAAAAATQ/U1a-tKrH2YA/s1600/jbots2011_header.jpg)
 
+[![Build Status](https://travis-ci.org/jmonster/jbots.png?branch=master)](https://travis-ci.org/jmonster/jbots)
+
+
 ## what can I do with jbots?
 + [Outgoing WebHooks](https://archer.slack.com/services/new/outgoing-webhook)
 + [Slash Commands](https://archer.slack.com/services/new/slash-commands)
