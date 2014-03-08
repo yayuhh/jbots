@@ -1,13 +1,13 @@
 {
   "name": "jbots",
-  "version": "0.1.0",
-  "description": "slack bot boilerplate via Hapi",
+  "version": "0.1.1",
+  "description": "custom slack bots via Hapi",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines":{
+  "engines": {
     "node": "0.10.x"
   },
   "author": "johnny domino",
