@@ -13,6 +13,6 @@
   "author": "johnny domino",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "hapi": "~2.1.2"
+    "hapi": "^2.6.0"
   }
 }
