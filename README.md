@@ -1,13 +1,12 @@
 ![jbots](http://1.bp.blogspot.com/-1czUXZDCNdU/TXRl_Q9FIAI/AAAAAAAAATQ/U1a-tKrH2YA/s1600/jbots2011_header.jpg)
-this is not an SDK for slack; this is a minimal, simple, fast, blabbity-blah-blah skeleton for writing bots that interact with you in #channels and groups.
 
-Obvious things you can do with jbots:
+## what can I do with jbots?
 + [Outgoing WebHooks](https://archer.slack.com/services/new/outgoing-webhook)
 + [Slash Commands](https://archer.slack.com/services/new/slash-commands)
-+ write a little code and [do many other things](https://archer.slack.com/services/new)
++ *or write a little code and [do many other things](https://archer.slack.com/services/new)*
 
 
-## how-to
+## how to jbot
 1. fork/clone jbots
 2. duplicate `./bots/hello.js`, renaming as appropriate
 3. implement your bot logic
@@ -16,7 +15,7 @@ Obvious things you can do with jbots:
 5. configure Slack integrations to send events to your bots however it makes sense to you
 
 
-## Slack
+## slack cheat sheet (for convenience)
 
 ### request.payload
 ```javascript
