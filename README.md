@@ -1,4 +1,4 @@
-![jbots](http://1.bp.blogspot.com/-1czUXZDCNdU/TXRl_Q9FIAI/AAAAAAAAATQ/U1a-tKrH2YA/s1600/jbots2011_header.jpg)
+![jbots](https://raw.github.com/jmonster/jbots/master/jbot.png)
 
 [![Build Status](https://travis-ci.org/jmonster/jbots.png?branch=master)](https://travis-ci.org/jmonster/jbots)
 
