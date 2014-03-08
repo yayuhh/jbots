@@ -11,8 +11,8 @@
 
 ## how to jbot
 1. fork/clone jbots
-2. duplicate `./bots/hello.js`, renaming as appropriate
-3. implement your bot logic
+2. duplicate or replace `./bots/hello.js`
+3. implement your custom bot logic
 4. git commit && git push to your deployment center of choice
   + Heroku should *just work* given the bundled package.json + Procfile
 5. configure Slack integrations to send events to your bots however it makes sense to you
