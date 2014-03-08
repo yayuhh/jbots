@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test node ./test"
   },
   "engines": {
     "node": "0.10.x"
   },
-  "author": "johnny domino",
+  "author": "johnny domino <jvdomino@gmail>",
   "license": "BSD-2-Clause",
   "dependencies": {
     "hapi": "^2.6.0"
+  },
+  "devDependencies": {
+    "tape": "~2.4.0"
   }
 }
