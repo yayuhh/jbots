@@ -18,17 +18,17 @@
 5. configure Slack integrations to send events to your bots however it makes sense to you
 
 
-## slack cheat sheet (for convenience)
+## slack cheat sheet
 
 ### request.payload
 ```javascript
 {
-  token:        "9itBZe5CqNXUsqh3RXACsfqb"
+  token:        "9itBZe5CqNAOEQP3RXACsfqb"
   team_id:      "T0001"
-  channel_id:   "C2147483705"
+  channel_id:   "C4815162342"
   channel_name: "test"
   timestamp:    "1355517523.000005"
-  user_id:      "U2147483697"
+  user_id:      "U4128675309"
   user_name:    "Steve"
   text:         "googlebot: What is the air-speed velocity of an unladen swallow?"
 }
