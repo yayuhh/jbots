@@ -2,6 +2,17 @@ module.exports = {
   path:    '/hello',
   handler: function(request, reply) {
 
+    // Slack Payload Cheatsheet
+    // {
+    //   token:        "9itBZe5CqNXUsqh3RXACsfqb"
+    //   team_id:      "T0001"
+    //   channel_id:   "C2147483705"
+    //   channel_name: "test"
+    //   timestamp:    "1355517523.000005"
+    //   user_id:      "U2147483697"
+    //   user_name:    "Steve"
+    //   text:         "googlebot: What is the air-speed velocity of an unladen swallow?"
+    // }
     var msg = request.payload;
 
     // Suppose you only want to respond to messages that match a certain criteria
@@ -19,7 +30,7 @@ module.exports = {
       // simply include a `username` property in your response.
       var username = 'hello-bot';
 
-      // Respond to Slack
+      // Respond back to Slack
       reply({
         'text':     body,
         'username': username
@@ -27,7 +38,7 @@ module.exports = {
     
     } else { 
 
-      // We're not interested in this event.
+      // This is not the msg you're looking for.
       reply().code(204);
     }
   }
