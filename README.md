@@ -4,9 +4,9 @@
 
 
 ## what can I do with jbots?
-+ [Outgoing WebHooks](https://archer.slack.com/services/new/outgoing-webhook)
-+ [Slash Commands](https://archer.slack.com/services/new/slash-commands)
-+ *or write a little code and [do many other things](https://archer.slack.com/services/new)*
++ [Outgoing WebHooks](https://slack.com/services/new/outgoing-webhook)
++ [Slash Commands](https://slack.com/services/new/slash-commands)
++ *or write a little code and [do many other things](https://slack.com/services/new)*
 
 
 ## how to jbot
