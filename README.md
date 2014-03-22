@@ -1,6 +1,6 @@
 ![jbots](https://raw.github.com/jmonster/jbots/master/lib/jbot.png)
 
-[![Build Status](https://travis-ci.org/jmonster/jbots.png?branch=master)](https://travis-ci.org/jmonster/jbots)
+[![Build Status](https://travis-ci.org/yayuhh/jbots.svg?branch=master)](https://travis-ci.org/yayuhh/jbots)
 
 
 ## what can I do with jbots?
