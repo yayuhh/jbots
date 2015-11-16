@@ -1,0 +1,9 @@
+{
+  "name":"jbots",
+  "description":"",
+  "scripts":{},
+  "env":{
+    "NODE_ENV": "production"
+  },
+  "addons":[]
+}
